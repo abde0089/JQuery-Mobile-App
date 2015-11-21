@@ -1,0 +1,24 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>cupcake yelllow</title>
+
+ <metadata id="metadata16">image/svg+xml</metadata>
+ <g>
+  <path d="m163.714005,242.570999c0,21.697006 -19.187012,39.285995 -42.857002,39.285995c-23.669205,0 -42.857002,-17.588989 -42.857002,-39.285995c0,-21.695999 19.187798,-39.285004 42.857002,-39.285004c23.669991,0 42.857002,17.589005 42.857002,39.285004l0,0z" stroke-width="5.798" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" fill-rule="evenodd" fill="#ff007f" id="path2387"/>
+  <path d="m419,243.929001c0,21.695999 -19.187988,39.284988 -42.856995,39.284988c-23.669006,0 -42.856995,-17.588989 -42.856995,-39.284988c0,-21.697006 19.187988,-39.285995 42.856995,-39.285995c23.669006,0 42.856995,17.588989 42.856995,39.285995l0,0z" stroke-width="5.798" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" fill-rule="evenodd" fill="#ff007f" id="path2397"/>
+  <path d="m250.013,85.999001c-22.569,0 -41.095001,13.394997 -42.75,30.375c-60.156006,13.053001 -103.958,52.047997 -104.405998,98.187996l297.155998,0c-0.455994,-46.880997 -45.692993,-86.371994 -107.342987,-98.780998c-2.025024,-16.696999 -20.35202,-29.781998 -42.657013,-29.781998l0,0l0,0l0,0l0,0l0,0l0,0z" stroke-width="5.798" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" fill-rule="evenodd" fill="#ff007f" id="path2399"/>
+  <path d="m92.223999,275.080994l67.902008,154.740021l179.846985,1.097992l64.231018,-154.740021l-311.980011,-1.097992l0,0z" stroke-width="0" stroke-dasharray="5,5" fill-rule="evenodd" fill="#7f3f00" id="path2422"/>
+  <title>Layer 1</title>
+  <ellipse rx="9" cy="178" cx="193" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="5,5" fill="#7f3f00" id="svg_2"/>
+  <ellipse ry="3" cy="205" cx="152" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_8"/>
+  <ellipse rx="1" cy="213" cx="349" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#00ffff" id="svg_49"/>
+  <ellipse cy="133" cx="494" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffff00" id="svg_3"/>
+  <ellipse ry="45.5" rx="153" cy="245.5" cx="247" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ff007f" id="svg_6"/>
+  <ellipse cy="211" cx="79" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ff0000" id="svg_12"/>
+  <rect height="0" width="1" y="225" x="270" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_7"/>
+  <rect height="0" width="15" y="238" x="196" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_13"/>
+  <rect height="0" width="15" y="221" x="349" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_16"/>
+  <rect height="0" width="19" y="155" x="306" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_19"/>
+  <rect height="0" width="17" y="145" x="256" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_20"/>
+  <rect height="0" width="12" y="155" x="186" stroke-width="5.798" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="null" fill="#ffffff" id="svg_22"/>
+ </g>
+</svg>

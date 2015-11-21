@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cupcakes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="themes/cupcake.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="myJs.js"></script>
+
+
+    <!-- link your JS file here too -->
+
+</head>
+
+<body>
+    <!---------Header/Header/Header-------------->
+
+    <div data-role="page" data-theme="a" id="home">
+
+        <div data-role="header" data-id="foo1" data-position="fixed">
+            <h1 class="title">Make-A-Cup-Cake</h1>
+            <a href="#myPanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left 
+        ui-btn-icon-notext ui-icon-grid"></a>
+        </div>
+
+        <!---------------------------------------------------->
+
+
+
+        <!----------------Panel/Panel/Panel------------------>
+
+        <div data-role="panel" id="myPanel" data-display="overlay">
+
+            <h2 id="h2P">Make A Cupcake</h2>
+            <div data-role="controlgroup" class="buttons">
+
+                <a href="#home" class="homebtn" data-role="button" id="homeP" data-mini="true" class="ui-mini-smaller">Home Page</a>
+                <a href="#about" class="aboutbtn" data-role="button" data-mini="true" class="ui-mini-smaller">About Me!</a>
+                <a href="#" class="startbtn" data-role="button" data-role="collapsible" data-transition="flip" data-mini="true" class="ui-mini-smaller">Start</a>
+            </div>
+            <div data-role="collapsible-set" data-theme="a" data-content-theme="a" data-mini="true" class="ui-mini-smaller">
+                <div data-role="collapsible" id="colBut">
+                    <a href="#step1" class="side" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step1</a>
+                    <a href="#step2" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step2</a>
+                    <a href="#step3" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step3</a>
+                    <a href="#step4" class="side" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step4</a>
+                    <a href="#step5" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step5</a>
+                    <a href="#step6" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step6</a>
+                    <a href="#step7" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller"> Step7</a>
+                    <a href="#step8" data-role="button" data-transition="flip" data-rel="dialog" data-mini="true" class="ui-mini-smaller">Step8</a>
+
+                    <h3>Steps</h3>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--------------Content/Content/Content--------------->
+
+
+        <div data-role="main" class="ui-content">
+            <img src="images/2.jpg" id="gcupcake" />
+
+            <p>Welcome to the MACC</p>
+
+            <p> Your easy 10-step Make-A-Cup-Cake tutorial!!</p>
+            <p>Click on the button below to open the Panel.Click on the button below to open the Panel.on the button below to open the Panel.</p>
+            <div data-role="controlgroup" class="buttons">
+                <a href="#home" class="homebtn" data-role="button">Home Page</a>
+
+                <a href="#step1" class="startbtn" data-role="button" data-transition="pop">Lets make a cupcake!</a>
+            </div>
+        </div>
+
+
+
+        <!-----------NAVBAR/NAVBAR/NAVBAR---------->
+
+        <!--------------Footer/Footer/Footer------------------>
+
+        <div data-role="footer" data-id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+
+                    <li><a href="#" data-icon="home">Home</a></li>
+
+                    <li><a href="#about" data-icon="edit">About Me</a></li>
+
+                </ul>
+            </div>
+
+
+            <h2>Make-A-Cup-Cake</h2>
+
+        </div>
+    </div>
+
+    <!----------------Step1/Step1/Step1------------------->
+
+    <div data-role="dialog" id="step1" class="tut" data-theme="a" data-close-btn="false">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step One / 8</h1>
+        </div>
+        <div data-role="ui-content">
+            <p class="inst">Shopping Time!</p>
+            <img src="images/ingr.jpg" id="ingre">
+            <ul>
+                <li>150g white flour</li>
+                <li>75g dark chocolate</li>
+                <li>100g butter</li>
+                <li>125ml boiling water</li>
+                <li>2 eggs</li>
+                <li>1 tsp baking powder</li>
+                <li>1/2 tsp baking soda</li>
+                <li>1 tsp mixed spice</li>
+                <li>3 Tbsp sour cream</li>
+                <li>1 tsp instant coffee</li>
+                <li>Pinch of salt</li>
+            </ul>
+
+
+            <a href="#step1" class="ui-disabled" data-role="button" data-transition="flip" class="backbutton" data-rel="dialog">Back</a>
+            <a href="#step2" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+
+    <!--------------------------------->
+
+
+    <!---------------Page2/Page2/Page2----------->
+
+    <div data-role="dialog" id="step2" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 2wo / 8</h1>
+        </div>
+        <div data-role="ui-content">
+            <p class="inst">Mixing Time!</p>
+            <img src="images/ingre2.jpg" id="ingre">
+            <p>Mix together the flour, baking powder, </p>
+            <p>baking soda, mixed spice and salt.</p>
+
+            <a href="#step1" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step3" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+
+
+
+
+        </div>
+    </div>
+
+    <!----------------Page3/Page3/Page3----------------->
+
+    <div data-role="dialog" id="step3" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 3ree / 8</h1>
+        </div>
+        <div data-role="ui-content">
+            <p class="inst">Melt, Add, Beat and Repeat!</p>
+            <img src="images/ingre3.jpg" id="ingre">
+            <p>Melt the butter and sugar. </p>
+            <p>Add one egg , together with a third of the flour mixture and a third of the sour cream</p>
+            <p>Beat untill these ingredients are well blended</p>
+            <p>Repeat untill the egss, flour and sour Cream are used up. :)</p>
+
+            <a href="#step2" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step4" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+    <!------------Page4/Page4/Page4------->
+
+    <div data-role="dialog" id="step4" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 4our / 8</h1>
+        </div>
+        <div data-role="ui-content">
+            <p class="inst">Le Chocolat', Oh La La!</p>
+            <img src="images/ingre4.jpg" id="ingre">
+            <p>Melt the butter and sugar. </p>
+            <p>Add one egg , together with a third of the flour mixture and a third of the sour cream</p>
+            <p>Beat untill these ingredients are well blended</p>
+            <p>Repeat untill the egss, flour and sour Cream are used up. :)</p>
+
+            <a href="#step3" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step5" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+
+    <!------------Page5/Page5/Page5------->
+
+    <div data-role="dialog" id="step5" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 5ive / 8</h1>
+        </div>
+        <div data-role="ui-content">
+
+            <p class="inst">Gourmet Batter</p> <img src="images/ingre5.jpg" id="ingre">
+            <p>Gently beat the chocolate mixture into the batter, just until everything comes together. The batter shoud be quite liquid</p>
+            <!--
+       <div data-role="navbar" >
+<ul>
+<li><a href="#firstpage" data-role="button"><img src="left.png" id=onePic2></a></li>
+        <li><a href="#thirdpage" data-role="button"><img src="right.png" id=onePic2></a></li>
+        
+       
+</ul>
+    
+       
+    </div> 
+-->
+
+            <a href="#step4" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step6" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+    <!------------------->
+
+    <div data-role="dialog" id="confirm" data-theme="a">
+        <div data-role="header">
+        
+            <h3>Start from?</h3>
+        </div>
+    
+        <div data-role="ui-content">
+        
+            <a href="#" class="yes" data-role="button" data-theme="b" data-rel="back">Where I left off!</a>
+            <a href="#" class="no" data-role="button" data-theme="c" data-rel="back">The Beginning!</a>
+        </div>
+    </div>
+    <!------------Page6/Page6/Page6------->
+
+    <div data-role="dialog" id="step6" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 6ix / 8</h1>
+        </div>
+        <div data-role="ui-content">
+
+            <p class="inst">Preheat, Bake and Test!</p> <img src="images/ingre6.jpg" id="ingre">
+            <p>Preheat the oven to 200 &deg;C and line a muffin tray with paper cases. Fill each case with some batter and bake for 15-20 Minutes!. Test by inserting a skewer into the middle of a cupcake untill it comes out clean.</p>
+
+
+            <a href="#step5" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step7" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+
+    <!------------Page7/Page7/Page7------->
+
+    <div data-role="dialog" id="step7" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step 7even / 8</h1>
+        </div>
+        <div data-role="ui-content">
+
+            <p class="inst"><i> Be Cool!</i></p> <img src="images/ingre7.jpg" id="ingre">
+            <p>Remove Cupcakes from the oven and from the metal tray. Leave Cupcakes to cool in the bin for about 5 minutes before setting them on a wire rack to cool down completely.</p>
+
+
+            <a href="#step6" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#step8" class="next" data-role="button" data-transition="flip" data-rel="dialog">Next Step</a>
+        </div>
+    </div>
+
+    <!------------Page8/Page8/Page8------->
+
+    <div data-role="dialog" id="step8" class="tut" data-theme="a" data-close-btn="flase">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>Step Ate / 8</h1>
+        </div>
+        <div data-role="ui-content">
+
+            <p class="inst"><i>Cup-Cake-orator!</i></p>
+            <img src="images/1.jpg" id="smlingre">
+            <img src="images/3.jpg" id="smlingre2">
+            <p>Unleash your inner Artist, Frost 3/4 of each cupcake with pink frosting frost the remaining frost in a lighter color. Pipe the cupcake in a swirley pattern up to the top! Place a sugar flower on top for an Retro feel, or keep it modern. You are the Artist, Enjoy!:)</p>
+
+
+            <a href="#step7" class="backbutton" data-role="button" data-transition="flip" data-direction="reverse" data-rel="back">Back</a>
+            <a href="#home" class="home" data-role="button" data-transition="slide" data-rel="page">Home</a>
+
+        </div>
+    </div>
+
+
+    <!-------------About/About/About---------------------->
+
+    <div data-role="page" id="about" class="tut" data-theme="a">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+            <h1>About Me</h1>
+        </div>
+        <div data-role="ui-content">
+
+            <p class="inst"><i>Cup-Cake-orator!</i></p>
+
+            <p>My Name is London I am a junior developer trying to learn and advance in the technology world.I also Love CupCakes. :) </p>
+
+
+            <a href="#home" class="home" data-role="button" data-transition="slide" data-rel="page">Home</a>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
