@@ -15,7 +15,7 @@ Android phone software provided with your device.
 
 2- To download to your phone Connect your device to your Laptop or Desktop
       
-      bash
+     
       
       Make sure you enable USB debugging.
       
