@@ -11,14 +11,14 @@ In order to utilize this phone app you can visit the link or download it on your
 Android phone software provided with your device. 
  
 
-1- Fork the Github repository into a folder on your computer.
+1-Fork the Github repository into a folder on your computer.
 
 2- To download to your phone Connect your device to your Laptop or Desktop
-
-'''bash
-
-Make sure you enable USB debugging.
-'''
+      
+      bash
+      
+      Make sure you enable USB debugging.
+      
 
 3- Copy the folder from your computer onto your phone storage. 
 4- Browse and open the index.html
